@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <h1>Nhận diện khuôn mặt</h1>
+    <p id="loading">Hệ thống đang tải dữ liệu ... </p>
+    <input type="file" name="file" id="file-input" accept="image/*" />
+    <div id="container"></div>
+    <div id="container-video">
+        <video id="video" width="720" height="520" autoplay muted></video>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"
+        integrity="sha256-XWbslTONf8w2XOFUgbhZm69LbiLJpiS3bUyoIaZpplk=" crossorigin="anonymous"></script>
+    <!-- <script src="./index.js"></script> -->
+    <!-- <script src="./new.js"></script> -->
+    <script src="./test.js"></script>
+</body>
+
+</html>
